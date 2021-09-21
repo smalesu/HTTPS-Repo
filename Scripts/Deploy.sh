@@ -13,4 +13,5 @@ echo "Connecting to Target machine via SSH"
 sshpass -p ${Password} ssh -t -t ${Username}@${IP_Address} <<EOSPL
   hostname -i
   exit
+
 EOSPL
